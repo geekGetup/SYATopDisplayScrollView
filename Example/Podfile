@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SYATopDisplayScrollView_Example' do
+  pod 'SYATopDisplayScrollView', :path => '../'
+
+  target 'SYATopDisplayScrollView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
